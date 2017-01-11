@@ -1,0 +1,7 @@
+#Tue Jan 10 23:20:56 CST 2017
+base.0=/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_76996d3666b6d52d2ee0963d6ebb2d60f394079a
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_183ce23051861fc4f29b77bcff11de5f832003e9/classes.dex
+base.1=/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_183ce23051861fc4f29b77bcff11de5f832003e9
+file.0=/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_76996d3666b6d52d2ee0963d6ebb2d60f394079a/classes.dex

@@ -56,6 +56,10 @@
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_switch_track.xml"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/color/left_menu_text_color_selector.xml",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/color/left_menu_text_color_selector.xml"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_material_dark.xml"
     },

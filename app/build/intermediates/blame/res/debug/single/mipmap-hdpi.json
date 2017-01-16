@@ -4,23 +4,83 @@
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/home_press.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/home_press.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/menu_arr_select.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/menu_arr_select.png"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/splash.png",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/splash.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/menu_arr_normal.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/menu_arr_normal.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/bottom_tab_bg.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/bottom_tab_bg.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/govaffairs.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/govaffairs.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/home.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/home.png"
     },
     {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/guide_3.png",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/guide_3.png"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/newscenter.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/newscenter.png"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/app_icon.png",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/setting.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/setting.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/newscenter_press.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/newscenter_press.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/smartservice_press.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/smartservice_press.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/img_menu.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/img_menu.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/smartservice.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/smartservice.png"
     },
     {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/guide_1.png",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/guide_1.png"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/setting_press.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/setting_press.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/govaffairs_press.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/govaffairs_press.png"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/guide_2.png",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/guide_2.png"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/mipmap-hdpi/title_red_bg.png",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/mipmap-hdpi/title_red_bg.png"
     }
 ]

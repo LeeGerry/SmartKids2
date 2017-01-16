@@ -154,6 +154,18 @@
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
     <declare-styleable name="RecycleListView"><attr format="dimension" name="paddingBottomNoButtons"/><attr format="dimension" name="paddingTopNoTitle"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SlidingMenu"><attr name="mode">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="reference" name="viewAbove"/><attr format="reference" name="viewBehind"/><attr format="dimension" name="behindOffset"/><attr format="dimension" name="behindWidth"/><attr format="float" name="behindScrollScale"/><attr name="touchModeAbove">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr name="touchModeBehind">
+            <enum name="margin" value="0"/>
+            <enum name="fullscreen" value="1"/>
+            <enum name="none" value="2"/>
+        </attr><attr format="reference" name="shadowDrawable"/><attr format="dimension" name="shadowWidth"/><attr format="boolean" name="fadeEnabled"/><attr format="float" name="fadeDegree"/><attr format="boolean" name="selectorEnabled"/><attr format="reference" name="selectorDrawable"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
             
@@ -312,6 +324,7 @@
     <item name="home" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
+    <item name="selected_view" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
@@ -1372,6 +1385,18 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="Bottom_Tab_Style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:drawablePadding">3dp</item>
     </style>
     <style name="MyButton" parent="Theme.AppCompat.Light">
         <item name="android:layout_width">wrap_content</item>

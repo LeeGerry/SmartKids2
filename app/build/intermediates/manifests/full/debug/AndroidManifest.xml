@@ -32,7 +32,7 @@
             android:theme="@android:style/Theme.Light.NoTitleBar" />
         <activity
             android:name="hci.me.smartkids.ui.MainActivity"
-            android:theme="@android:style/Theme.Light.NoTitleBar" />
+            android:theme="@style/Theme.PageIndicatorDefaults" />
     </application>
 
 </manifest>

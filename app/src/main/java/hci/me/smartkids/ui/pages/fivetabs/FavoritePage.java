@@ -103,7 +103,6 @@ public class FavoritePage extends BasePage {
         menu.setMenuData(newsModel.data);
         //初始化四个菜单详情页
         mMenuDetailPagers = new ArrayList<>();
-        Log.i("test",newsModel.data.get(0).children.toString());
         mMenuDetailPagers.add(new NewsMenuDetailPager(mActivity, newsModel.data.get(0).children));
         mMenuDetailPagers.add(new TopicMenuDetailPager(mActivity));
         mMenuDetailPagers.add(new PhotosMenuDetailPager(mActivity));

@@ -421,6 +421,9 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">SmartKids</string>
     <string name="begin">GO!</string>
+    <string name="loading">loading</string>
+    <string name="pull_refresh">pull to refresh</string>
+    <string name="release_refresh">release to refresh</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SmartKids</string>
     <string name="begin">GO!</string>
+    <string name="pull_refresh">pull to refresh</string>
+    <string name="release_refresh">release to refresh</string>
+    <string name="loading">loading</string>
 </resources>

@@ -6,44 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="180dp">
 
-        <hci.me.smartkids.ui.view.NewsTopImageViewPager
-            android:id="@+id/vp_center_news"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="#a000"
-            android:padding="10dp">
-            <TextView
-                android:id="@+id/tv_top_news_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="title"
-                android:layout_alignParentLeft="true"
-                android:textColor="#fff"
-                android:textSize="16sp" />
-            <com.viewpagerindicator.CirclePageIndicator
-                android:id="@+id/indicator"
-                android:padding="10dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content" />
-        </RelativeLayout>
-
-    </RelativeLayout>
-    <ListView
+    <hci.me.smartkids.ui.view.PollToRefreshListView
         android:layout_weight="1"
         android:cacheColorHint="#fff"
         android:id="@+id/lv_news_list"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
-    </ListView>
+    </hci.me.smartkids.ui.view.PollToRefreshListView>
 </LinearLayout>

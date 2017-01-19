@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -28,6 +27,7 @@ import hci.me.smartkids.config.AppConfig;
 import hci.me.smartkids.model.NewTabModel;
 import hci.me.smartkids.model.NewsModel;
 import hci.me.smartkids.ui.view.NewsTopImageViewPager;
+import hci.me.smartkids.ui.view.PollToRefreshListView;
 import hci.me.smartkids.utils.CacheUtils;
 
 /**
@@ -44,7 +44,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
     private String dataUrl;
     private CenterNewsAdapter adapter;
     @ViewInject(R.id.lv_news_list)
-    private ListView lvNewsList;
+    private PollToRefreshListView lvNewsList;
     @ViewInject(R.id.indicator)
     private CirclePageIndicator indicator;
     @ViewInject(R.id.tv_top_news_title)
@@ -68,6 +68,9 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
 //        return tv;
         View view = View.inflate(mActivity, R.layout.pager_center_details, null);
         x.view().inject(this, view);
+        View header = View.inflate(mActivity, R.layout.list_item_header, null);
+        x.view().inject(this, header);//此时也要把头布局进行注入
+        lvNewsList.addHeaderView(header);
         return view;
     }
 
@@ -167,7 +170,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
                             .setFailureDrawableId(R.mipmap.news_pic_default)
                             .build();
             String url = topnews.get(position).topimage;
-            url = url.replace("10.0.2.2","192.168.142.151");
+            url = url.replace("10.0.2.2","192.168.142.150");
             x.image().bind(iv, url, options);
 //            t.setTextColor(Color.RED);
 //            t.setTextSize(25);
@@ -224,7 +227,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
             holder.tvTime.setText(item.pubdate);
 
             String url = item.listimage;
-            url = url.replace("10.0.2.2","192.168.142.151");
+            url = url.replace("10.0.2.2","192.168.142.150");
             x.image().bind(holder.ivIcon, url, options);
             return convertView;
         }

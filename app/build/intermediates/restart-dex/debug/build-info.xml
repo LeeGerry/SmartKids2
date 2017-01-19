@@ -5,66 +5,61 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="25779612408818"
+    timestamp="14446303514726"
     token="4109000731508453903"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="148" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="17" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="25" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="137143569356"
+        timestamp="5858938739001"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="2963160789536"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="25331662913467"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-            type="DEX" />
+        timestamp="12763096850365"
+        verifier="R_CLASS_CHANGE" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="13547784413633"
+        verifier="FIELD_ADDED" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
-            type="DEX" />
     </build>
     <build
-        timestamp="25779612408818"
+        timestamp="13700622964664"
         verifier="COMPATIBLE" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
             type="RESOURCES" />
+    </build>
+    <build
+        timestamp="14446303514726"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

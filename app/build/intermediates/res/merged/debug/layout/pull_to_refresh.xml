@@ -15,6 +15,7 @@
         <ProgressBar
             android:visibility="invisible"
             android:id="@+id/pb_loading"
+            android:indeterminateDrawable="@drawable/custom_progress"
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />

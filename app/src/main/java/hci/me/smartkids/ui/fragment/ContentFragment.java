@@ -149,4 +149,6 @@ public class ContentFragment extends BaseFragment {
         FavoritePage pager = (FavoritePage) mPages.get(1);
         return pager;
     }
+
+
 }

@@ -27,6 +27,7 @@ public class NewsTopImageViewPager extends ViewPager {
      */
     @Override
     public boolean dispatchTouchEvent(MotionEvent ev) {
+        getAdapter().notifyDataSetChanged();//在这里需要添加adapter刷新，避免加载更多后下拉刷新报错
         getParent().requestDisallowInterceptTouchEvent(true);
         switch (ev.getAction()){
             case MotionEvent.ACTION_DOWN://按下
@@ -51,9 +52,11 @@ public class NewsTopImageViewPager extends ViewPager {
                     }
                 }else {//否则为上下滑动，需要拦截
                     getParent().requestDisallowInterceptTouchEvent(false);
+
                 }
                 break;
         }
         return super.dispatchTouchEvent(ev);
     }
+
 }

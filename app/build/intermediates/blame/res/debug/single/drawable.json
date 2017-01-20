@@ -116,6 +116,10 @@
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_tab_indicator_material.xml"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/drawable/custom_progress.xml",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/drawable/custom_progress.xml"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable/abc_ic_go_search_api_material.xml"
     },

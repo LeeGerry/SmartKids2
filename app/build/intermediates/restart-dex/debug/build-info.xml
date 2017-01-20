@@ -5,61 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14446303514726"
+    timestamp="4197591659797"
     token="4109000731508453903"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="148" />
+        duration="139" />
     <task
         name="instant-run-dex"
-        duration="17" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="25" />
+        duration="207" />
     <task
         name="verifier"
-        duration="1" />
+        duration="29" />
 
     <artifact
-        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="5858938739001"
+        timestamp="4197591659797"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="12763096850365"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="13547784413633"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="13700622964664"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        timestamp="14446303514726"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -188,6 +188,10 @@
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/poll_refresh_footer.xml",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/layout/poll_refresh_footer.xml"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/pager_menu_news_details.xml",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/layout/pager_menu_news_details.xml"
     },

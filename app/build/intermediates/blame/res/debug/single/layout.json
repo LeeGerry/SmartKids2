@@ -8,6 +8,10 @@
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/layout/fragment_content.xml"
     },
     {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/activity_news_page.xml",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/layout/activity_news_page.xml"
+    },
+    {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
     },
@@ -30,6 +34,10 @@
     {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/web_view_title.xml",
+        "source": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/res/layout/web_view_title.xml"
     },
     {
         "merged": "/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",

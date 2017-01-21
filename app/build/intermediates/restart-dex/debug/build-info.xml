@@ -5,33 +5,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="4197591659797"
+    timestamp="12879365910490"
     token="4109000731508453903"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="139" />
+        duration="164" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="207" />
+        duration="10" />
     <task
         name="verifier"
-        duration="29" />
+        duration="1" />
 
     <artifact
-        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="4197591659797"
+        timestamp="12430123107889"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="12879365910490"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

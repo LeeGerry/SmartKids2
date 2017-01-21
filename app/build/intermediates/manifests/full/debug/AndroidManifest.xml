@@ -33,6 +33,9 @@
         <activity
             android:name="hci.me.smartkids.ui.MainActivity"
             android:theme="@style/Theme.PageIndicatorDefaults" />
+        <activity
+            android:name="hci.me.smartkids.ui.NewsPageActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
     </application>
 
 </manifest>

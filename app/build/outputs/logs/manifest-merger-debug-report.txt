@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/Andr
 	android:name
 		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:5:22-78
 application
-ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:6:5-22:19
+ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:6:5-23:19
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
@@ -73,6 +73,12 @@ ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/Andr
 		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:21:51-101
 	android:name
 		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:21:19-50
+activity#hci.me.smartkids.ui.NewsPageActivity
+ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:22:9-110
+	android:theme
+		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:22:55-108
+	android:name
+		ADDED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml:22:19-54
 uses-sdk
 INJECTED from /Users/liguorui/Documents/AndroidProject/SmartKids2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/liguorui/Documents/AndroidProject/SmartKids2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78

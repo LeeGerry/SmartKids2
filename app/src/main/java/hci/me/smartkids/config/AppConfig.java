@@ -13,8 +13,8 @@ public class AppConfig {
     /**
      * 服务器地址
      */
-//    public final static String SERVER_ADDR = "http://192.168.142.150:8080/zhbj";
-    public final static String SERVER_ADDR = "http://192.168.1.6:8080/zhbj";
+    public final static String SERVER_ADDR = "http://172.17.83.159:8080/zhbj";
+//    public final static String SERVER_ADDR = "http://192.168.1.6:8080/zhbj";
     /**
      * 侧边栏category API
      */

@@ -923,6 +923,7 @@ int string pull_refresh 0x7f060024
 int string release_refresh 0x7f060025
 int string search_menu_title 0x7f060013
 int string status_bar_notification_info_overflow 0x7f060014
+int string text_size_setting 0x7f060026
 int style AlertDialog_AppCompat 0x7f08009f
 int style AlertDialog_AppCompat_Light 0x7f0800a0
 int style Animation_AppCompat_Dialog 0x7f0800a1

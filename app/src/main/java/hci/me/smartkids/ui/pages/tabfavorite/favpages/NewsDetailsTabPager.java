@@ -112,7 +112,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
                 TextView title = (TextView) view.findViewById(R.id.tv_title);
                 title.setTextColor(Color.GRAY);//把点过的ITEM颜色title改为灰色，在adapter中也要改
                 Intent intent = new Intent(mActivity, NewsPageActivity.class);
-                String url = data.url.replace("10.0.2.2","192.168.1.6");
+                String url = data.url.replace("10.0.2.2","172.17.83.159");
                 intent.putExtra("url",url);
                 mActivity.startActivity(intent);
             }
@@ -335,7 +335,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
                 holder.tvTitle.setTextColor(Color.BLACK);
             }
             String url = item.listimage;
-            url = url.replace("10.0.2.2","192.168.1.6");
+            url = url.replace("10.0.2.2","172.17.83.159");
             x.image().bind(holder.ivIcon, url, options);
             return convertView;
         }

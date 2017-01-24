@@ -4,4 +4,5 @@
     <string name="pull_refresh">pull to refresh</string>
     <string name="release_refresh">release to refresh</string>
     <string name="loading">loading</string>
+    <string name="text_size_setting">Choose Size</string>
 </resources>

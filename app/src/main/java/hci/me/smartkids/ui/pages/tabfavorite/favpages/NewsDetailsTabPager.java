@@ -3,9 +3,12 @@ package hci.me.smartkids.ui.pages.tabfavorite.favpages;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.text.TextUtils;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -57,7 +60,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
     private TextView tvTopNewsTitle;
     @ViewInject(value = R.id.vp_center_news)
     private NewsTopImageViewPager vpCenterNews;
-
+    private Handler handler;
     private NewsListAdapter newsListAdapter;
     private String mUrlMore;
     public NewsDetailsTabPager(Activity activity, NewsModel.NewsTabData newsTabData) {
@@ -237,8 +240,38 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
             });
             tvTopNewsTitle.setText(topnews.get(0).title);
             indicator.onPageSelected(0);//默认让第一个选中，解决页面销毁后重新初始化，indicator仍然保留上次位置
-
-        }else {
+            if(handler == null){
+                handler = new Handler(){
+                    @Override
+                    public void handleMessage(Message msg) {
+                        int currentItem = vpCenterNews.getCurrentItem();
+                        currentItem++;
+                        if (currentItem > topnews.size()-1)
+                            currentItem = 0;
+                        vpCenterNews.setCurrentItem(currentItem);
+                        handler.sendEmptyMessageDelayed(0, 3000);
+                    }
+                };
+                handler.sendEmptyMessageDelayed(0, 3000);//保证启动自动轮播逻辑只执行一次
+                vpCenterNews.setOnTouchListener(new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View v, MotionEvent event) {
+                        switch (event.getAction()){
+                            case MotionEvent.ACTION_DOWN:
+                                handler.removeCallbacksAndMessages(null);//删除handler的所有消息，停止自动轮播
+                                break;
+                            case MotionEvent.ACTION_CANCEL://触摸取消也要重新开启自动轮播
+                                handler.sendEmptyMessageDelayed(0, 3000);
+                                break;
+                            case MotionEvent.ACTION_UP://
+                                handler.sendEmptyMessageDelayed(0, 3000);
+                                break;
+                        }
+                        return false;
+                    }
+                });
+            }
+        }else {//加载更多
             ArrayList<NewTabModel.NewsData> moreData = newTabModel.data.news;
             newsList.addAll(moreData);
             newsListAdapter.notifyDataSetChanged();
@@ -271,7 +304,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
                             .setFailureDrawableId(R.mipmap.news_pic_default)
                             .build();
             String url = topnews.get(position).topimage;
-            url = url.replace("10.0.2.2","192.168.1.6");
+            url = url.replace("10.0.2.2",AppConfig.CURR_SERVER_IP);
             x.image().bind(iv, url, options);
             container.addView(iv);
             return iv;
@@ -335,7 +368,7 @@ public class NewsDetailsTabPager extends BaseMenuDetailPager {
                 holder.tvTitle.setTextColor(Color.BLACK);
             }
             String url = item.listimage;
-            url = url.replace("10.0.2.2","172.17.83.159");
+            url = url.replace("10.0.2.2",AppConfig.CURR_SERVER_IP);
             x.image().bind(holder.ivIcon, url, options);
             return convertView;
         }
